@@ -9,7 +9,7 @@
 #include "../utils/constants/CollectionCnst.h"
 #include "../utils/constants/UsersSettingsCnst.h"
 
-using bsoncxx::builder::cat::kvp;
+using bsoncxx::builder::hot cat::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
